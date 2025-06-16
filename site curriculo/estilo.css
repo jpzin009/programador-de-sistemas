@@ -1,0 +1,140 @@
+body {
+    /* cor de fundo */
+    background-color: rgb(44, 15, 1);
+    background-image: url(https://www.neymarjr.net/wp-content/uploads/2013/07/neymar-goal-celebration-wallpaper-in-santos.jpg);
+    background-size: cover ;
+    /* cor da letra */
+    color: rgba(255, 255, 255, 0.568);
+    /* alinhamento do texto*/
+    text-align:center;
+    /*trocaando fonte*/
+    font-family:'Courier New', Courier, monospace;
+    margin: 0px;
+}
+
+section{
+    /*cor de fundo*/
+    background-color: rgb(66, 42, 28);
+    /*largura*/
+    max-width: 600px;
+    /*centralizae card*/
+    margin: auto;
+    /*arredondar bordas*/
+    border-radius: 30px;
+    /*espacamento interno/*
+    padding:2px;
+    /*espacamento externo
+    margin-bottom:15px;
+    /8sombra*/
+    padding-bottom: 15px;
+}
+
+section:hover{
+background-color:rgb(44, 15, 1);
+/*tempo de transição*/
+transition:1s;
+/*tamanho da fonte - aumentar*/
+font-size:17px;
+
+    box-shadow: 2px 2px 22px rgb(255, 255, 255);
+}
+
+ul{
+    /*estilo de lista desativado*/
+    list-style:outside;
+/*alinhae texto a esquerda*/
+text-align:left;
+}
+#perfil{
+    width: 280px;
+    border-radius:15px;
+    border: 2px solid rgb(255, 255, 255);
+}
+#perfil2{
+    width: 280px;
+    border-radius: 15px;
+    border:2px solid rgb(255, 255, 255)
+}
+
+.links{
+    /*decoração de texto desativado*/
+    text-decoration-color: none;
+    color:rgb(153, 108, 86)
+}
+
+.links:houver{
+    font-weight:bond;
+    color:rgb(82, 55, 15)
+}
+.menu{
+    /*cor de fundo*/
+    background-color: rgb(44, 15, 1);
+    /*alinhamento de texto*/
+    text-align: left;
+    /*espaçamento interno*/
+    padding: 10px;
+    /*cor da letra*/
+    color: white;
+    /*margem abaixo*/
+    margin-bottom: 15px;
+    display: flex;
+    gap: 10px;
+    justify-content: center; /*flex-start flex-end center space-between space-around space-evenly;*/
+    align-items: center;
+}
+
+.menu ul{
+    margin: 0px;
+}
+
+.menu ul li{
+    /*colocar em linha e lado a lado*/
+    display: inline-block;
+    padding: 10px;
+    
+}
+.menu ul li a{
+    /*cor da letra*/
+    color: white;
+    /*desativar traço em baixo*/
+    text-decoration: none;
+}
+footer{
+background-color:rgb(66, 42, 28);
+color:bisque;
+margin-top:20px;
+padding:40px;
+box-shadow:2px 2px 10px rgb(255, 255, 255);
+}
+
+.celular{
+    /*desaparece o menu do celular*/
+    display: none;
+}
+
+/*configuração de css para celular/tablet */
+@media(max-width: 1050px){
+    section{
+        font-size: 15px;
+    }
+
+    .celular{
+        /*aparecer o menu do celular*/
+        display: block;
+    }
+    .menu ul{
+        /*desaparece a lista do menu */
+        display: none;
+    }
+
+    ul.mostrarMenu{
+        /*aparecer a lista do menu*/
+        display: inline-block;
+    }
+    .menu ul li{
+        width: 100%;
+        /* border: 1px solid white; */
+        margin: 3px;
+        border-radius: 10px;
+    }
+}

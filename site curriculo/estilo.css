@@ -3,6 +3,8 @@ body {
     background-color: rgb(44, 15, 1);
     background-image: url(https://www.neymarjr.net/wp-content/uploads/2013/07/neymar-goal-celebration-wallpaper-in-santos.jpg);
     background-size: cover ;
+    
+    /*segunda alteração*/
     /* cor da letra */
     color: rgba(255, 255, 255, 0.568);
     /* alinhamento do texto*/

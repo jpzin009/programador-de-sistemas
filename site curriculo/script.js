@@ -2,9 +2,11 @@
 
 //uma variavel guarda algum valor temporariamente
 //entrada dos dados
-var nome ="valdecir";
+var nome ="joao";
 var idade = 44;
 var senha = "123";
+
+//registrando aleração
 
 //estrutura de condição
 if(idade > 17) {

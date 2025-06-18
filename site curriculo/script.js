@@ -12,7 +12,7 @@ if(idade > 17) {
 }  else{
     // alert("vai embora daqui! "+nome)
 }
-
+//teste 
 if(nome == "valdecir" && senha =="123"){
    // alert("login concedido!");
 }else{

@@ -8,6 +8,7 @@ var senha = "123";
 
 //registrando aleração
 //enviando alteração pro github com visual
+//alterado do git
 
 //estrutura de condição
 if(idade > 17) {
